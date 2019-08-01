@@ -3,6 +3,9 @@ body{
 }  
 
 .button-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
     display: flex;
     align-items: center;
     width: 100%;
@@ -49,7 +52,7 @@ hr{
     background-color: lightgray;
 }
 .definition>h2{
-    
+    padding: 8px;
     display: flex;
     font-weight: 400;
     line-height: 1.5;
@@ -57,8 +60,8 @@ hr{
     justify-content: center
 }
 .definition>p{
-   
-    margin: 30px; 
+    font-size: 24px;
+    margin: 27px;
 }
 .caratestique{
     background: #fff;
@@ -66,5 +69,22 @@ hr{
     border-left: 6px solid #2994c7;
     border-top: 1px solid #d2d2d2;
 }
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+    margin-bottom: -30px;
+}
+   
+.points-fort {
+    text-align: left
+} 
 
-
+.style-card {
+    width: 60rem
+}
+.voiture{
+    margin: 57px;
+    
+}

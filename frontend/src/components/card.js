@@ -6,7 +6,7 @@ const Card = (props) => {
       
       <div style={{ display:"inline-block", margin:20, textAlign:"center" }}>
     <MDBCol >
-      <MDBCard style={{ width: "22rem" }}>
+      <MDBCard style={{ width: props.big ? "60rem" : "22rem" }}>
         <MDBCardImage className="img-fluid" 
         
         src={props.img} waves />
